@@ -1,0 +1,62 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+div{
+	margin-left:200px;
+	margin-top: 200px;
+}
+div ul ul {
+	visibility: hidden;
+	float: left;
+	background:gray;
+	padding: 0;
+	border: 0px;
+	position: absolute;
+	top: 58px;
+	left: 0px;
+}
+div ul li:hover > ul {
+	visibility: visible;
+}
+
+div ul {
+	padding: 0 20px;
+	list-style: none;
+	position: relative;
+}
+
+div ul li {
+	background: aliceblue;
+	float: left;
+	padding: 20px;
+	position: relative;
+}
+div ul li:hover {
+	background-color: yellow;
+}
+div ul li:hover a {
+	color: gray;
+}
+
+div ul ul {
+	background: white; 
+	padding: 0;
+	border:0px;
+	position: absolute; 
+	top: 100%;
+}
+div ul ul li {
+	float: none; 
+	position: relative;
+}
+
+div ul ul li a:hover {
+	background: gray;
+}
+div ul ul ul {
+	position: absolute; 
+	left: 100%; 
+	top:0;
+}
